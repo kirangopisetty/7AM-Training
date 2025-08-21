@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FINAL PROJECT#1" tests="21" time="4.864">
+  <testsuite name="NEGATIVE TC / UNSUPPORTED HTTP METHODS / LIST USERS API" id="b8e49bf6-e80e-4b8e-930e-2de178ffbc09" timestamp="2025-08-19T02:05:19.090Z" tests="1" failures="0" errors="0" time="0.593">
+    <testcase name="Verify if response code is 422" time="0.593" classname="NegativeTcUnsupportedHttpMethodsListUsersApi"/>
+  </testsuite>
+  <testsuite name="NEGATIVE TC / UNSUPPORTED HTTP METHODS / LIST USERS API" id="2159a60e-837f-42cf-b839-81d88531c6ce" timestamp="2025-08-19T02:05:19.090Z" tests="1" failures="0" errors="0" time="0.148">
+    <testcase name="Verify if response code is 404" time="0.148" classname="NegativeTcUnsupportedHttpMethodsListUsersApi"/>
+  </testsuite>
+  <testsuite name="NEGATIVE TC / UNSUPPORTED HTTP METHODS / LIST USERS API" id="b8c3f160-3e98-4450-a8d9-d5e5e4caeae0" timestamp="2025-08-19T02:05:19.090Z" tests="1" failures="0" errors="0" time="0.151">
+    <testcase name="Verify if response code is 404" time="0.151" classname="NegativeTcUnsupportedHttpMethodsListUsersApi"/>
+  </testsuite>
+  <testsuite name="NEGATIVE TC / UNSUPPORTED HTTP METHODS / CREATE USER API" id="70f53f34-5897-46f4-9b74-5058b63afb86" timestamp="2025-08-19T02:05:19.090Z" tests="1" failures="0" errors="0" time="0.204">
+    <testcase name="Status code is 404" time="0.204" classname="NegativeTcUnsupportedHttpMethodsCreateUserApi"/>
+  </testsuite>
+  <testsuite name="NEGATIVE TC / UNSUPPORTED HTTP METHODS / CREATE USER API" id="3e2c364b-28ff-4ca5-89d8-95fa44dba3ca" timestamp="2025-08-19T02:05:19.090Z" tests="1" failures="0" errors="0" time="0.152">
+    <testcase name="Status code is 404" time="0.152" classname="NegativeTcUnsupportedHttpMethodsCreateUserApi"/>
+  </testsuite>
+  <testsuite name="NEGATIVE TC / UNSUPPORTED HTTP METHODS / CREATE USER API" id="0fca22ac-3b19-4ce4-81c3-e7677869266f" timestamp="2025-08-19T02:05:19.090Z" tests="1" failures="1" errors="0" time="0.398">
+    <testcase name="Status code is 404" time="0.398" classname="NegativeTcUnsupportedHttpMethodsCreateUserApi">
+      <failure type="AssertionFailure" message="expected response to have status code 404 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6b123c80-a1c1-4484-8305-0a1fb5739dc1.]]>
+        <![CDATA[Collection name: FINAL PROJECT#1.]]>
+        <![CDATA[Request name: NEGATIVE TC / UNSUPPORTED HTTP METHODS / CREATE USER API.]]>
+        <![CDATA[Test description: Status code is 404.]]>
+        <![CDATA[Error message: expected response to have status code 404 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 404 but got 200
+   at Object.eval sandbox-script.js:1:6).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="NEGATIVE TC / UNSUPPORTED HTTP METHODS / UPDATE USER API" id="90fc31a1-2746-484c-8550-56e3cc41d41b" timestamp="2025-08-19T02:05:19.090Z" tests="1" failures="0" errors="0" time="0.151">
+    <testcase name="Status code is 404" time="0.151" classname="NegativeTcUnsupportedHttpMethodsUpdateUserApi"/>
+  </testsuite>
+  <testsuite name="NEGATIVE TC / UNSUPPORTED HTTP METHODS / DELETE USER API" id="3ac87633-2a92-49f0-a6a5-f4c25a8847f0" timestamp="2025-08-19T02:05:19.090Z" tests="1" failures="0" errors="0" time="0.154">
+    <testcase name="Verify if response code is 404" time="0.154" classname="NegativeTcUnsupportedHttpMethodsDeleteUserApi"/>
+  </testsuite>
+  <testsuite name="NEGATIVE TC / BROKEN ENDPOINTS TESTING / LIST USERS API" id="d73087bf-6852-42ab-8124-c38cf60fc0f5" timestamp="2025-08-19T02:05:19.090Z" tests="1" failures="1" errors="0" time="0.215">
+    <testcase name="Verify if response code is 4xx client side error" time="0.215" classname="NegativeTcBrokenEndpointsTestingListUsersApi">
+      <failure type="AssertionFailure" message="expected response code to be 4XX but found 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6b123c80-a1c1-4484-8305-0a1fb5739dc1.]]>
+        <![CDATA[Collection name: FINAL PROJECT#1.]]>
+        <![CDATA[Request name: NEGATIVE TC / BROKEN ENDPOINTS TESTING / LIST USERS API.]]>
+        <![CDATA[Test description: Verify if response code is 4xx client side error.]]>
+        <![CDATA[Error message: expected response code to be 4XX but found 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response code to be 4XX but found 200
+   at Object.eval sandbox-script.js:1:9).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="NEGATIVE TC / BROKEN ENDPOINTS TESTING / CREATE USER API" id="fa83e6a5-9506-4749-8fd6-f196409cf917" timestamp="2025-08-19T02:05:19.090Z" tests="1" failures="1" errors="0" time="0.198">
+    <testcase name="Verify if response code is 4xx client side error" time="0.198" classname="NegativeTcBrokenEndpointsTestingCreateUserApi">
+      <failure type="AssertionFailure" message="expected response code to be 4XX but found 201">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6b123c80-a1c1-4484-8305-0a1fb5739dc1.]]>
+        <![CDATA[Collection name: FINAL PROJECT#1.]]>
+        <![CDATA[Request name: NEGATIVE TC / BROKEN ENDPOINTS TESTING / CREATE USER API.]]>
+        <![CDATA[Test description: Verify if response code is 4xx client side error.]]>
+        <![CDATA[Error message: expected response code to be 4XX but found 201.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response code to be 4XX but found 201
+   at Object.eval sandbox-script.js:1:10).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="NEGATIVE TC / BROKEN ENDPOINTS TESTING / UPDATE USER API" id="0b4bd339-5c67-402a-a5e8-9338a21a227b" timestamp="2025-08-19T02:05:19.090Z" tests="1" failures="0" errors="0" time="0.178">
+    <testcase name="Verify if response code is 4xx client side error" time="0.178" classname="NegativeTcBrokenEndpointsTestingUpdateUserApi"/>
+  </testsuite>
+  <testsuite name="NEGATIVE TC / BROKEN ENDPOINTS TESTING / DELETE USER API" id="2f480b73-39ec-4312-a3c2-9c76b1324556" timestamp="2025-08-19T02:05:19.090Z" tests="1" failures="0" errors="0" time="0.178">
+    <testcase name="Verify if response code is 4xx client side error" time="0.178" classname="NegativeTcBrokenEndpointsTestingDeleteUserApi"/>
+  </testsuite>
+  <testsuite name="NEGATIVE TC / PAYLOAD TAMPERING TESTING / CREATE USER API-INVALID DATA TYPE" id="e71747d2-bad2-4d9c-85e8-ce26c5d48590" timestamp="2025-08-19T02:05:19.090Z" tests="1" failures="1" errors="0" time="0.225">
+    <testcase name="Verify if response code is 4xx client side error" time="0.225" classname="NegativeTcPayloadTamperingTestingCreateUserApiInvalidDataType">
+      <failure type="AssertionFailure" message="expected response code to be 4XX but found 201">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6b123c80-a1c1-4484-8305-0a1fb5739dc1.]]>
+        <![CDATA[Collection name: FINAL PROJECT#1.]]>
+        <![CDATA[Request name: NEGATIVE TC / PAYLOAD TAMPERING TESTING / CREATE USER API-INVALID DATA TYPE.]]>
+        <![CDATA[Test description: Verify if response code is 4xx client side error.]]>
+        <![CDATA[Error message: expected response code to be 4XX but found 201.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response code to be 4XX but found 201
+   at Object.eval sandbox-script.js:1:13).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="NEGATIVE TC / PAYLOAD TAMPERING TESTING / CREATE USER API-INVALID DATA LENGTH" id="3ee08c81-e513-4af5-97ac-8bbd5229d3d3" timestamp="2025-08-19T02:05:19.090Z" tests="1" failures="1" errors="0" time="0.332">
+    <testcase name="Verify if response code is 4xx client side error" time="0.332" classname="NegativeTcPayloadTamperingTestingCreateUserApiInvalidDataLength">
+      <failure type="AssertionFailure" message="expected response code to be 4XX but found 201">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6b123c80-a1c1-4484-8305-0a1fb5739dc1.]]>
+        <![CDATA[Collection name: FINAL PROJECT#1.]]>
+        <![CDATA[Request name: NEGATIVE TC / PAYLOAD TAMPERING TESTING / CREATE USER API-INVALID DATA LENGTH.]]>
+        <![CDATA[Test description: Verify if response code is 4xx client side error.]]>
+        <![CDATA[Error message: expected response code to be 4XX but found 201.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response code to be 4XX but found 201
+   at Object.eval sandbox-script.js:1:14).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="NEGATIVE TC / PAYLOAD TAMPERING TESTING / CREATE USER API-INVALID DATA FIELD NAME" id="bf5ade23-64f4-432d-a0b3-01e5ed3a05a0" timestamp="2025-08-19T02:05:19.090Z" tests="1" failures="0" errors="0" time="0.201">
+    <testcase name="Verify if response code is 4xx client side error" time="0.201" classname="NegativeTcPayloadTamperingTestingCreateUserApiInvalidDataFieldName"/>
+  </testsuite>
+  <testsuite name="POSITIVE TC-E2E / Create a user" id="8a9721c8-b21b-4354-80f0-9adba3b892ec" timestamp="2025-08-19T02:05:19.090Z" tests="9" failures="0" errors="0" time="0.240">
+    <testcase name="Verify if the response code is 201 Created" time="0.240" classname="PositiveTcE2ECreateAUser"/>
+    <testcase name="Verify if the response time is &lt; 3 seconds" time="0.240" classname="PositiveTcE2ECreateAUser"/>
+    <testcase name="Verify if the response body is received from server" time="0.240" classname="PositiveTcE2ECreateAUser"/>
+    <testcase name="Verify if the response body received is valid" time="0.240" classname="PositiveTcE2ECreateAUser"/>
+    <testcase name="Verify if the response body is received in JSON format" time="0.240" classname="PositiveTcE2ECreateAUser"/>
+    <testcase name="Verify if response headers don't reveal project specific details" time="0.240" classname="PositiveTcE2ECreateAUser"/>
+    <testcase name="Verify if gender is [male, female]" time="0.240" classname="PositiveTcE2ECreateAUser"/>
+    <testcase name="Verify if status is [active, inactive]" time="0.240" classname="PositiveTcE2ECreateAUser"/>
+    <testcase name="Verify if name=Swetha &amp; email=swetha@yahoo.com" time="0.240" classname="PositiveTcE2ECreateAUser"/>
+  </testsuite>
+  <testsuite name="POSITIVE TC-E2E / Verify if user is created" id="23858c61-caaa-4d0a-b290-62df2bcdf917" timestamp="2025-08-19T02:05:19.090Z" tests="8" failures="0" errors="0" time="0.199">
+    <testcase name="Verify if the response code is 200 OK" time="0.199" classname="PositiveTcE2EVerifyIfUserIsCreated"/>
+    <testcase name="Verify if the response time is &lt; 2 seconds" time="0.199" classname="PositiveTcE2EVerifyIfUserIsCreated"/>
+    <testcase name="Verify if the response body is received from server" time="0.199" classname="PositiveTcE2EVerifyIfUserIsCreated"/>
+    <testcase name="Verify if the response body received is valid" time="0.199" classname="PositiveTcE2EVerifyIfUserIsCreated"/>
+    <testcase name="Verify if the response body is received in JSON format" time="0.199" classname="PositiveTcE2EVerifyIfUserIsCreated"/>
+    <testcase name="Verify if response headers don't reveal project specific details" time="0.199" classname="PositiveTcE2EVerifyIfUserIsCreated"/>
+    <testcase name="Verify if user is created with id : 8074433" time="0.199" classname="PositiveTcE2EVerifyIfUserIsCreated"/>
+    <testcase name="Verify if user is created with name : Webster" time="0.199" classname="PositiveTcE2EVerifyIfUserIsCreated"/>
+  </testsuite>
+  <testsuite name="POSITIVE TC-E2E / Update the created user" id="1261b323-89d1-45b6-a190-c5403d47f3e2" timestamp="2025-08-19T02:05:19.090Z" tests="9" failures="0" errors="0" time="0.201">
+    <testcase name="Verify if the response code is 200 OK" time="0.201" classname="PositiveTcE2EUpdateTheCreatedUser"/>
+    <testcase name="Verify if the response time is &lt; 3 seconds" time="0.201" classname="PositiveTcE2EUpdateTheCreatedUser"/>
+    <testcase name="Verify if the response body is received from server" time="0.201" classname="PositiveTcE2EUpdateTheCreatedUser"/>
+    <testcase name="Verify if the response body received is valid" time="0.201" classname="PositiveTcE2EUpdateTheCreatedUser"/>
+    <testcase name="Verify if the response body is received in JSON format" time="0.201" classname="PositiveTcE2EUpdateTheCreatedUser"/>
+    <testcase name="Verify if response headers don't reveal project specific details" time="0.201" classname="PositiveTcE2EUpdateTheCreatedUser"/>
+    <testcase name="Verify if gender is [male, female]" time="0.201" classname="PositiveTcE2EUpdateTheCreatedUser"/>
+    <testcase name="Verify if status is [active, inactive]" time="0.201" classname="PositiveTcE2EUpdateTheCreatedUser"/>
+    <testcase name="Verify if name=Kiran-Trainer" time="0.201" classname="PositiveTcE2EUpdateTheCreatedUser"/>
+  </testsuite>
+  <testsuite name="POSITIVE TC-E2E / Verify if user is updated" id="92648b79-d753-43e3-9bc4-c521449ae4e7" timestamp="2025-08-19T02:05:19.090Z" tests="7" failures="0" errors="0" time="0.312">
+    <testcase name="Verify if the response code is 200 OK" time="0.312" classname="PositiveTcE2EVerifyIfUserIsUpdated"/>
+    <testcase name="Verify if the response time is &lt; 2 seconds" time="0.312" classname="PositiveTcE2EVerifyIfUserIsUpdated"/>
+    <testcase name="Verify if the response body is received from server" time="0.312" classname="PositiveTcE2EVerifyIfUserIsUpdated"/>
+    <testcase name="Verify if the response body received is valid" time="0.312" classname="PositiveTcE2EVerifyIfUserIsUpdated"/>
+    <testcase name="Verify if the response body is received in JSON format" time="0.312" classname="PositiveTcE2EVerifyIfUserIsUpdated"/>
+    <testcase name="Verify if response headers don't reveal project specific details" time="0.312" classname="PositiveTcE2EVerifyIfUserIsUpdated"/>
+    <testcase name="Verify if user is updated with name : Mr.Webster" time="0.312" classname="PositiveTcE2EVerifyIfUserIsUpdated"/>
+  </testsuite>
+  <testsuite name="POSITIVE TC-E2E / Delete the created user" id="e54ef10a-62b8-4fc3-b723-ffe237f7260a" timestamp="2025-08-19T02:05:19.090Z" tests="4" failures="0" errors="0" time="0.209">
+    <testcase name="Verify if the response code is 204 No Content" time="0.209" classname="PositiveTcE2EDeleteTheCreatedUser"/>
+    <testcase name="Verify if the response time is &lt; 2 seconds" time="0.209" classname="PositiveTcE2EDeleteTheCreatedUser"/>
+    <testcase name="Verify if the response body is empty" time="0.209" classname="PositiveTcE2EDeleteTheCreatedUser"/>
+    <testcase name="Verify if response headers don't reveal project specific details" time="0.209" classname="PositiveTcE2EDeleteTheCreatedUser"/>
+  </testsuite>
+  <testsuite name="POSITIVE TC-E2E / Verify if user is deleted" id="7be4e0c5-15c2-4915-9e31-12d04ebdac3f" timestamp="2025-08-19T02:05:19.090Z" tests="8" failures="0" errors="0" time="0.225">
+    <testcase name="Verify if the response code is 200 OK" time="0.225" classname="PositiveTcE2EVerifyIfUserIsDeleted"/>
+    <testcase name="Verify if the response time is &lt; 2 seconds" time="0.225" classname="PositiveTcE2EVerifyIfUserIsDeleted"/>
+    <testcase name="Verify if the response body is received from server" time="0.225" classname="PositiveTcE2EVerifyIfUserIsDeleted"/>
+    <testcase name="Verify if the response body received is valid" time="0.225" classname="PositiveTcE2EVerifyIfUserIsDeleted"/>
+    <testcase name="Verify if the response body is received in JSON format" time="0.225" classname="PositiveTcE2EVerifyIfUserIsDeleted"/>
+    <testcase name="Verify if response headers don't reveal project specific details" time="0.225" classname="PositiveTcE2EVerifyIfUserIsDeleted"/>
+    <testcase name="Verify if user is deleted with id : 8074433" time="0.225" classname="PositiveTcE2EVerifyIfUserIsDeleted"/>
+    <testcase name="Verify if user is deleted with name : Mr.Webster" time="0.225" classname="PositiveTcE2EVerifyIfUserIsDeleted"/>
+  </testsuite>
+</testsuites>

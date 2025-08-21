@@ -1,0 +1,6 @@
+﻿varUserAgent,varName,varGender,varEmail,varStatus,varUpdatedID,varUpdatedName,varUpdatedEmail,varUpdatedStatus,varIDtoDelete
+"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/138.0.3351.121",Radhika,female,radhika@shah.co.in,active,8076512,Hero,hero@movie.co.in,inactive,8076507
+Mozilla/5.0 (X11; Linux i686; rv:141.0) Gecko/20100101 Firefox/141.0,Sushil,male,sushial@Mardhekar.co.in,inactive,8076511,Heroine,heroine@movie.co.in,active,8076281
+"Mozilla/5.0 (Macintosh; Intel Mac OS X 15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",Chandu,female,chandu@priya.co.in,active,8076510,Director,director@movie.co.in,inactive,8076280
+"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.7204.180 Mobile Safari/537.36",Srujana,female,srujana@nandavarapu.co.in,inactive,8076509,Villian,villian@movie.co.in,active,8076279
+"Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Mobile/15E148 Safari/604.1",Krapesh,male,krapesh@nayak.co.in,active,8076508,Producer,producer@movie.co.in,inactive,8076256

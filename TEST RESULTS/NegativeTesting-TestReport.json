@@ -1,0 +1,487 @@
+{
+	"id": "f4759ae6-1479-4989-8e70-99d3b6a725bd",
+	"name": "FINAL PROJECT#1",
+	"timestamp": "2025-08-13T02:14:10.533Z",
+	"collection_id": "5040522-6b123c80-a1c1-4484-8305-0a1fb5739dc1",
+	"folder_id": "5040522-9cd2dca1-c089-4dea-9e61-6708860bba8f",
+	"environment_id": "0",
+	"totalPass": 9,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-08-13T02:14:05.823Z",
+	"totalFail": 6,
+	"results": [
+		{
+			"id": "172a7687-32f5-40a4-9cb3-ac396a22b915",
+			"name": "LIST USERS API",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 444,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity"
+			},
+			"tests": {
+				"Verify if response code is 422": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 422": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				444
+			],
+			"allTests": [
+				{
+					"Verify if response code is 422": true
+				}
+			]
+		},
+		{
+			"id": "83b7be6d-b136-444a-849b-044830656313",
+			"name": "LIST USERS API",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 136,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 404": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				136
+			],
+			"allTests": [
+				{
+					"Verify if response code is 404": true
+				}
+			]
+		},
+		{
+			"id": "89854182-e0fc-49a2-a632-62686ea4ce46",
+			"name": "LIST USERS API",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 152,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 404": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				152
+			],
+			"allTests": [
+				{
+					"Verify if response code is 404": true
+				}
+			]
+		},
+		{
+			"id": "fea537ba-3304-46e0-a2ad-5ea4401be49f",
+			"name": "CREATE USER API",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 137,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				137
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "ec3d5e14-f6b9-499e-a7b6-667b3059d70e",
+			"name": "CREATE USER API",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 159,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				159
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "ffa653b0-de4a-4648-bef2-c8d5020ec873",
+			"name": "CREATE USER API",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 219,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 404": false
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				219
+			],
+			"allTests": [
+				{
+					"Status code is 404": false
+				}
+			]
+		},
+		{
+			"id": "989b1893-cfcc-4334-82c4-c13fe724f1e5",
+			"name": "UPDATE USER API",
+			"url": "https://gorest.co.in/public/v2/users/8065670",
+			"time": 173,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				173
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "17014ebf-fcaa-42dc-b2f6-0da15415f1bb",
+			"name": "DELETE USER API",
+			"url": "https://gorest.co.in/public/v2/users/8065595",
+			"time": 156,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 404": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				156
+			],
+			"allTests": [
+				{
+					"Verify if response code is 404": true
+				}
+			]
+		},
+		{
+			"id": "89b42c43-7233-44f4-abd7-f7a2830912b1",
+			"name": "LIST USERS API",
+			"url": "https://gorest.co.in/public/v1/users",
+			"time": 214,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code is 4xx client side error": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx client side error": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				214
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx client side error": false
+				}
+			]
+		},
+		{
+			"id": "4df27ae6-47f1-44e7-a78d-65c7dbca7387",
+			"name": "CREATE USER API",
+			"url": "https://gorest.co.in/public/v1/users",
+			"time": 206,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Verify if response code is 4xx client side error": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx client side error": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				206
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx client side error": false
+				}
+			]
+		},
+		{
+			"id": "bdd79d43-90f3-420d-b93d-393bd70e5346",
+			"name": "UPDATE USER API",
+			"url": "https://gorest.co.in/public/v1/users/8065594",
+			"time": 215,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code is 4xx client side error": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx client side error": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				215
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx client side error": false
+				}
+			]
+		},
+		{
+			"id": "f9e09e7c-ffa7-477f-9597-99d7f8dfa41a",
+			"name": "DELETE USER API",
+			"url": "https://gorest.co.in/public/v1/users/8064667",
+			"time": 182,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				182
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx client side error": true
+				}
+			]
+		},
+		{
+			"id": "70b7d3bd-2318-44d9-b28e-a5ef2c6fe460",
+			"name": "CREATE USER API-INVALID DATA TYPE",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 205,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Verify if response code is 4xx client side error": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx client side error": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				205
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx client side error": false
+				}
+			]
+		},
+		{
+			"id": "b3899247-03ca-4113-9ca0-904a535189f3",
+			"name": "CREATE USER API-INVALID DATA LENGTH",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 213,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Verify if response code is 4xx client side error": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx client side error": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				213
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx client side error": false
+				}
+			]
+		},
+		{
+			"id": "4ba2eeb9-f18f-455d-9910-deb34a7c6489",
+			"name": "CREATE USER API-INVALID DATA FIELD NAME",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 193,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity"
+			},
+			"tests": {
+				"Verify if response code is 4xx client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				193
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx client side error": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3004,
+	"collection": {
+		"requests": [
+			{
+				"id": "172a7687-32f5-40a4-9cb3-ac396a22b915",
+				"method": "POST"
+			},
+			{
+				"id": "83b7be6d-b136-444a-849b-044830656313",
+				"method": "PATCH"
+			},
+			{
+				"id": "89854182-e0fc-49a2-a632-62686ea4ce46",
+				"method": "DELETE"
+			},
+			{
+				"id": "fea537ba-3304-46e0-a2ad-5ea4401be49f",
+				"method": "PATCH"
+			},
+			{
+				"id": "ec3d5e14-f6b9-499e-a7b6-667b3059d70e",
+				"method": "DELETE"
+			},
+			{
+				"id": "ffa653b0-de4a-4648-bef2-c8d5020ec873",
+				"method": "GET"
+			},
+			{
+				"id": "989b1893-cfcc-4334-82c4-c13fe724f1e5",
+				"method": "POST"
+			},
+			{
+				"id": "17014ebf-fcaa-42dc-b2f6-0da15415f1bb",
+				"method": "POST"
+			},
+			{
+				"id": "89b42c43-7233-44f4-abd7-f7a2830912b1",
+				"method": "GET"
+			},
+			{
+				"id": "4df27ae6-47f1-44e7-a78d-65c7dbca7387",
+				"method": "POST"
+			},
+			{
+				"id": "bdd79d43-90f3-420d-b93d-393bd70e5346",
+				"method": "PATCH"
+			},
+			{
+				"id": "f9e09e7c-ffa7-477f-9597-99d7f8dfa41a",
+				"method": "DELETE"
+			},
+			{
+				"id": "70b7d3bd-2318-44d9-b28e-a5ef2c6fe460",
+				"method": "POST"
+			},
+			{
+				"id": "b3899247-03ca-4113-9ca0-904a535189f3",
+				"method": "POST"
+			},
+			{
+				"id": "4ba2eeb9-f18f-455d-9910-deb34a7c6489",
+				"method": "POST"
+			}
+		]
+	}
+}
