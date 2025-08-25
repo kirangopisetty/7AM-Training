@@ -1,0 +1,298 @@
+{
+	"id": "a2b1a8b6-2eb7-4641-b16a-76beb49add12",
+	"name": "PROJECT#2-SWAGGER-REST APIs",
+	"timestamp": "2025-08-25T02:09:09.876Z",
+	"collection_id": "5040522-44554e94-5648-4dcb-ade3-59fceceefcfc",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 21,
+	"delay": "1000",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-08-25T02:09:00.711Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "bf2520f7-a142-44ea-888e-1d243b7b3341",
+			"name": "BASIC AUTH API",
+			"url": "https://httpbin.org/basic-auth/user/passwd",
+			"time": 278,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response has required fields: authenticated and user": true,
+				"Authenticated field is a boolean": true,
+				"User field is a non-empty string": true,
+				"Response Content-Type is application/json": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has required fields: authenticated and user": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Authenticated field is a boolean": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User field is a non-empty string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				278
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response has required fields: authenticated and user": true,
+					"Authenticated field is a boolean": true,
+					"User field is a non-empty string": true,
+					"Response Content-Type is application/json": true
+				}
+			]
+		},
+		{
+			"id": "5894fb24-b11d-46c2-bbf7-d130588f99de",
+			"name": "BEARER ACCESS TOKEN API",
+			"url": "https://httpbin.org/bearer",
+			"time": 225,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response has required fields": true,
+				"Authenticated field should be a boolean": true,
+				"Token must be a non-empty string": true,
+				"Response Content-Type is application/json": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has required fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Authenticated field should be a boolean": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token must be a non-empty string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				225
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response has required fields": true,
+					"Authenticated field should be a boolean": true,
+					"Token must be a non-empty string": true,
+					"Response Content-Type is application/json": true
+				}
+			]
+		},
+		{
+			"id": "726932c9-b752-4da2-b96d-e4140d8b70b4",
+			"name": "DIGEST AUTH API",
+			"url": "https://httpbin.org/digest-auth/auth/user/passwd",
+			"time": 232,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response has required fields": true,
+				"Authenticated is a boolean": true,
+				"User field is a non-empty string": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has required fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Authenticated is a boolean": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User field is a non-empty string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				232
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response has required fields": true,
+					"Authenticated is a boolean": true,
+					"User field is a non-empty string": true,
+					"Response time is less than 2000ms": true
+				}
+			]
+		},
+		{
+			"id": "94283c08-448e-48c5-a510-c733560329b4",
+			"name": "BASIC AUTH-API-NO AUTH",
+			"url": "https://httpbin.org/basic-auth/user/passwd",
+			"time": 224,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				224
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "b889d350-befd-49e3-a9eb-3a2a8aa83569",
+			"name": "BEARER ACCESS TOKEN API-NO AUTH",
+			"url": "https://httpbin.org/bearer",
+			"time": 225,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				225
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "e6f719ba-d5f5-4cfa-be54-77c9797d5849",
+			"name": "DIGEST AUTH API-NO AUTH",
+			"url": "https://httpbin.org/digest-auth/auth/user/passwd",
+			"time": 230,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				230
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1414,
+	"collection": {
+		"requests": [
+			{
+				"id": "bf2520f7-a142-44ea-888e-1d243b7b3341",
+				"method": "GET"
+			},
+			{
+				"id": "5894fb24-b11d-46c2-bbf7-d130588f99de",
+				"method": "GET"
+			},
+			{
+				"id": "726932c9-b752-4da2-b96d-e4140d8b70b4",
+				"method": "GET"
+			},
+			{
+				"id": "94283c08-448e-48c5-a510-c733560329b4",
+				"method": "GET"
+			},
+			{
+				"id": "b889d350-befd-49e3-a9eb-3a2a8aa83569",
+				"method": "GET"
+			},
+			{
+				"id": "e6f719ba-d5f5-4cfa-be54-77c9797d5849",
+				"method": "GET"
+			}
+		]
+	}
+}
