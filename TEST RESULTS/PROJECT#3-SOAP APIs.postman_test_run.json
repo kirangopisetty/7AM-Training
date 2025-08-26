@@ -1,0 +1,302 @@
+{
+	"id": "183fce19-f349-4c8d-ab22-acefd55a8f9f",
+	"name": "PROJECT#3-SOAP APIs",
+	"timestamp": "2025-08-26T02:17:58.642Z",
+	"collection_id": "5040522-3a971318-d698-4728-815e-d1073983bfb4",
+	"folder_id": "5040522-5a7cabee-76fc-49a9-9e1f-ddf4d57db5b1",
+	"environment_id": "0",
+	"totalPass": 64,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-08-26T02:17:50.239Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "acd431eb-a944-48b2-9b35-7bd659478e4a",
+			"name": "ADD API",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 255,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code = 200": true,
+				"Verify if response time is < 1000ms": true,
+				"Verify if Content-Type = text/xml; charset=utf-8": true,
+				"Verify if response body is valid": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code = 200": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Verify if response time is < 1000ms": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Verify if Content-Type = text/xml; charset=utf-8": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Verify if response body is valid": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				912,
+				366,
+				256,
+				255
+			],
+			"allTests": [
+				{
+					"Verify if response code = 200": true,
+					"Verify if response time is < 1000ms": true,
+					"Verify if Content-Type = text/xml; charset=utf-8": true,
+					"Verify if response body is valid": true
+				},
+				{
+					"Verify if response code = 200": true,
+					"Verify if response time is < 1000ms": true,
+					"Verify if Content-Type = text/xml; charset=utf-8": true,
+					"Verify if response body is valid": true
+				},
+				{
+					"Verify if response code = 200": true,
+					"Verify if response time is < 1000ms": true,
+					"Verify if Content-Type = text/xml; charset=utf-8": true,
+					"Verify if response body is valid": true
+				},
+				{
+					"Verify if response code = 200": true,
+					"Verify if response time is < 1000ms": true,
+					"Verify if Content-Type = text/xml; charset=utf-8": true,
+					"Verify if response body is valid": true
+				}
+			]
+		},
+		{
+			"id": "570abe54-de1c-4ad0-877e-44416c05be8b",
+			"name": "SUBTRACT API",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 318,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code = 200": true,
+				"Verify if response time is < 1000ms": true,
+				"Verify if Content-Type = text/xml; charset=utf-8": true,
+				"Verify if response body is valid": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code = 200": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Verify if response time is < 1000ms": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Verify if Content-Type = text/xml; charset=utf-8": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Verify if response body is valid": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				347,
+				349,
+				257,
+				318
+			],
+			"allTests": [
+				{
+					"Verify if response code = 200": true,
+					"Verify if response time is < 1000ms": true,
+					"Verify if Content-Type = text/xml; charset=utf-8": true,
+					"Verify if response body is valid": true
+				},
+				{
+					"Verify if response code = 200": true,
+					"Verify if response time is < 1000ms": true,
+					"Verify if Content-Type = text/xml; charset=utf-8": true,
+					"Verify if response body is valid": true
+				},
+				{
+					"Verify if response code = 200": true,
+					"Verify if response time is < 1000ms": true,
+					"Verify if Content-Type = text/xml; charset=utf-8": true,
+					"Verify if response body is valid": true
+				},
+				{
+					"Verify if response code = 200": true,
+					"Verify if response time is < 1000ms": true,
+					"Verify if Content-Type = text/xml; charset=utf-8": true,
+					"Verify if response body is valid": true
+				}
+			]
+		},
+		{
+			"id": "d1a649b5-c544-4523-86bd-aab8b8d5d227",
+			"name": "MULTIPLY API",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 334,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code = 200": true,
+				"Verify if response time is < 1000ms": true,
+				"Verify if Content-Type = text/xml; charset=utf-8": true,
+				"Verify if response body is valid": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code = 200": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Verify if response time is < 1000ms": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Verify if Content-Type = text/xml; charset=utf-8": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Verify if response body is valid": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				256,
+				265,
+				257,
+				334
+			],
+			"allTests": [
+				{
+					"Verify if response code = 200": true,
+					"Verify if response time is < 1000ms": true,
+					"Verify if Content-Type = text/xml; charset=utf-8": true,
+					"Verify if response body is valid": true
+				},
+				{
+					"Verify if response code = 200": true,
+					"Verify if response time is < 1000ms": true,
+					"Verify if Content-Type = text/xml; charset=utf-8": true,
+					"Verify if response body is valid": true
+				},
+				{
+					"Verify if response code = 200": true,
+					"Verify if response time is < 1000ms": true,
+					"Verify if Content-Type = text/xml; charset=utf-8": true,
+					"Verify if response body is valid": true
+				},
+				{
+					"Verify if response code = 200": true,
+					"Verify if response time is < 1000ms": true,
+					"Verify if Content-Type = text/xml; charset=utf-8": true,
+					"Verify if response body is valid": true
+				}
+			]
+		},
+		{
+			"id": "3adbd3ad-cb39-40b2-8d35-6978d0356f1e",
+			"name": "DIVIDE API",
+			"url": "http://www.dneonline.com/calculator.asmx",
+			"time": 339,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code = 200": true,
+				"Verify if response time is < 1000ms": true,
+				"Verify if Content-Type = text/xml; charset=utf-8": true,
+				"Verify if response body is valid": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code = 200": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Verify if response time is < 1000ms": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Verify if Content-Type = text/xml; charset=utf-8": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Verify if response body is valid": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				981,
+				255,
+				255,
+				339
+			],
+			"allTests": [
+				{
+					"Verify if response code = 200": true,
+					"Verify if response time is < 1000ms": true,
+					"Verify if Content-Type = text/xml; charset=utf-8": true,
+					"Verify if response body is valid": true
+				},
+				{
+					"Verify if response code = 200": true,
+					"Verify if response time is < 1000ms": true,
+					"Verify if Content-Type = text/xml; charset=utf-8": true,
+					"Verify if response body is valid": true
+				},
+				{
+					"Verify if response code = 200": true,
+					"Verify if response time is < 1000ms": true,
+					"Verify if Content-Type = text/xml; charset=utf-8": true,
+					"Verify if response body is valid": true
+				},
+				{
+					"Verify if response code = 200": true,
+					"Verify if response time is < 1000ms": true,
+					"Verify if Content-Type = text/xml; charset=utf-8": true,
+					"Verify if response body is valid": true
+				}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 6002,
+	"collection": {
+		"requests": [
+			{
+				"id": "acd431eb-a944-48b2-9b35-7bd659478e4a",
+				"method": "POST"
+			},
+			{
+				"id": "570abe54-de1c-4ad0-877e-44416c05be8b",
+				"method": "POST"
+			},
+			{
+				"id": "d1a649b5-c544-4523-86bd-aab8b8d5d227",
+				"method": "POST"
+			},
+			{
+				"id": "3adbd3ad-cb39-40b2-8d35-6978d0356f1e",
+				"method": "POST"
+			}
+		]
+	}
+}
