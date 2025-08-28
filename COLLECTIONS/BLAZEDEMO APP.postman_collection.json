@@ -1,0 +1,292 @@
+{
+	"info": {
+		"_postman_id": "fc008c5c-101f-4384-a39d-06b099cb3f3f",
+		"name": "BLAZEDEMO APP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5040522",
+		"_collection_link": "https://kiranmm.postman.co/workspace/7AM-TRAINING~ce67243d-296f-4730-af59-177591369d3a/collection/5040522-fc008c5c-101f-4384-a39d-06b099cb3f3f?action=share&source=collection_link&creator=5040522"
+	},
+	"item": [
+		{
+			"name": "LOGIN API",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-GB,en-US;q=0.9,en;q=0.8"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "origin",
+						"value": "https://blazedemo.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=0, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://blazedemo.com/login"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not;A=Brand\";v=\"99\", \"Google Chrome\";v=\"139\", \"Chromium\";v=\"139\""
+					},
+					{
+						"key": "sec-ch-ua-arch",
+						"value": "\"x86\""
+					},
+					{
+						"key": "sec-ch-ua-bitness",
+						"value": "\"64\""
+					},
+					{
+						"key": "sec-ch-ua-full-version-list",
+						"value": "\"Not;A=Brand\";v=\"99.0.0.0\", \"Google Chrome\";v=\"139.0.7258.139\", \"Chromium\";v=\"139.0.7258.139\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-model",
+						"value": "\"\""
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-ch-ua-platform-version",
+						"value": "\"15.0.0\""
+					},
+					{
+						"key": "sec-ch-ua-wow64",
+						"value": "?0"
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "document"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "navigate"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-fetch-user",
+						"value": "?1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Cookie",
+						"value": "keen={%22uuid%22:%22e1d9675d-1aff-4884-bbd3-bc2b3d2e5e7c%22%2C%22initialReferrer%22:null}; prodperfect_session={%22session_uuid%22:%222573ccbe-488c-49ac-aa36-e29aa8ba7fd1%22}; XSRF-TOKEN=eyJpdiI6InowYXVWc0NrUk1MT0xGT0hPelwvVzZnPT0iLCJ2YWx1ZSI6ImU0N1lGMmhXb1wvVFRpK3ZLenBEVUhCckpZc1h2bWpyekpUVTNpZjNtT2JsSVo4a1dLSFRmZGgrdEhcL3lGSXIyR1UxS2QwcHNsQWxOdEFFWW5ISldMYlwvODFtY0hPVGhMRVltOWZWMTF4bGVuN2p4WFQ3S1NKaXZQZzhwdUxuYkxKIiwibWFjIjoiZGUwMTAxYTc1YWQ0Mjk5MDMyMjAyYjUzYTA4MmYwMDgzNGE3MWFmNjI2YjhiMGU0YjZjMzNlZmRiNGZjMjRhMSJ9; laravel_session=eyJpdiI6Ilwvc0VLTVwveTkyTGRyaWZkZ1lqUVgrZz09IiwidmFsdWUiOiJLMVpaMytxUlNUcTVcLzBsMW9YS284clFxcUdBTFl5Y2FGbnFTOHpWTFMyK3FVWFZZZVVoYzdXTVpKc1VNc2pqVmF0NjBJOHptbW5EOTNsWTM1bGtzclBnYUFuMlwvc2FjdUswODFnSXk0d09nZWprZXRkeFlLb1l0ZGhraUhDcGx2IiwibWFjIjoiODY1ZTVlOTRhOGFiNTBiZDQyN2Y0Y2RiMjUxZjBjMmMxYjUyYTcxMTQxMGIwMDczZjE5MGM2MDRlMjAyY2ZiMiJ9"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "_token",
+							"value": "TRiKJPjOUASfrN9iWg0qLVV2tILvktNnBy3WK2S3",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "tester@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "kiran",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://blazedemo.com/login",
+					"protocol": "https",
+					"host": [
+						"blazedemo",
+						"com"
+					],
+					"path": [
+						"login"
+					]
+				},
+				"description": "Generated from cURL: curl \"https://blazedemo.com/login\" \r\n  -H \"accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\" \r\n  -H \"accept-language: en-GB,en-US;q=0.9,en;q=0.8\" \r\n  -H \"cache-control: max-age=0\" \r\n  -H \"content-type: application/x-www-form-urlencoded\" \r\n  -b \"keen={%22uuid%22:%22e1d9675d-1aff-4884-bbd3-bc2b3d2e5e7c%22%2C%22initialReferrer%22:null}; prodperfect_session={%22session_uuid%22:%222573ccbe-488c-49ac-aa36-e29aa8ba7fd1%22}; XSRF-TOKEN=eyJpdiI6InowYXVWc0NrUk1MT0xGT0hPelwvVzZnPT0iLCJ2YWx1ZSI6ImU0N1lGMmhXb1wvVFRpK3ZLenBEVUhCckpZc1h2bWpyekpUVTNpZjNtT2JsSVo4a1dLSFRmZGgrdEhcL3lGSXIyR1UxS2QwcHNsQWxOdEFFWW5ISldMYlwvODFtY0hPVGhMRVltOWZWMTF4bGVuN2p4WFQ3S1NKaXZQZzhwdUxuYkxKIiwibWFjIjoiZGUwMTAxYTc1YWQ0Mjk5MDMyMjAyYjUzYTA4MmYwMDgzNGE3MWFmNjI2YjhiMGU0YjZjMzNlZmRiNGZjMjRhMSJ9; laravel_session=eyJpdiI6Ilwvc0VLTVwveTkyTGRyaWZkZ1lqUVgrZz09IiwidmFsdWUiOiJLMVpaMytxUlNUcTVcLzBsMW9YS284clFxcUdBTFl5Y2FGbnFTOHpWTFMyK3FVWFZZZVVoYzdXTVpKc1VNc2pqVmF0NjBJOHptbW5EOTNsWTM1bGtzclBnYUFuMlwvc2FjdUswODFnSXk0d09nZWprZXRkeFlLb1l0ZGhraUhDcGx2IiwibWFjIjoiODY1ZTVlOTRhOGFiNTBiZDQyN2Y0Y2RiMjUxZjBjMmMxYjUyYTcxMTQxMGIwMDczZjE5MGM2MDRlMjAyY2ZiMiJ9\" \r\n  -H \"origin: https://blazedemo.com\" \r\n  -H \"priority: u=0, i\" \r\n  -H \"referer: https://blazedemo.com/login\" \r\n  -H \"sec-ch-ua: \\\"Not;A=Brand\\\";v=\\\"99\\\", \\\"Google Chrome\\\";v=\\\"139\\\", \\\"Chromium\\\";v=\\\"139\\\"\" \r\n  -H \"sec-ch-ua-arch: \\\"x86\\\"\" \r\n  -H \"sec-ch-ua-bitness: \\\"64\\\"\" \r\n  -H \"sec-ch-ua-full-version-list: \\\"Not;A=Brand\\\";v=\\\"99.0.0.0\\\", \\\"Google Chrome\\\";v=\\\"139.0.7258.139\\\", \\\"Chromium\\\";v=\\\"139.0.7258.139\\\"\" \r\n  -H \"sec-ch-ua-mobile: ?0\" \r\n  -H \"sec-ch-ua-model: \\\"\\\"\" \r\n  -H \"sec-ch-ua-platform: \\\"Windows\\\"\" \r\n  -H \"sec-ch-ua-platform-version: \\\"15.0.0\\\"\" \r\n  -H \"sec-ch-ua-wow64: ?0\" \r\n  -H \"sec-fetch-dest: document\" \r\n  -H \"sec-fetch-mode: navigate\" \r\n  -H \"sec-fetch-site: same-origin\" \r\n  -H \"sec-fetch-user: ?1\" \r\n  -H \"upgrade-insecure-requests: 1\" \r\n  -H \"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\" \r\n  --data-raw \"_token=TRiKJPjOUASfrN9iWg0qLVV2tILvktNnBy3WK2S3&email=tester%40gmail.com&password=kiran\""
+			},
+			"response": []
+		},
+		{
+			"name": "REGISTER API",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-GB,en-US;q=0.9,en;q=0.8"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "origin",
+						"value": "https://blazedemo.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=0, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://blazedemo.com/register"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not;A=Brand\";v=\"99\", \"Google Chrome\";v=\"139\", \"Chromium\";v=\"139\""
+					},
+					{
+						"key": "sec-ch-ua-arch",
+						"value": "\"x86\""
+					},
+					{
+						"key": "sec-ch-ua-bitness",
+						"value": "\"64\""
+					},
+					{
+						"key": "sec-ch-ua-full-version-list",
+						"value": "\"Not;A=Brand\";v=\"99.0.0.0\", \"Google Chrome\";v=\"139.0.7258.139\", \"Chromium\";v=\"139.0.7258.139\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-model",
+						"value": "\"\""
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-ch-ua-platform-version",
+						"value": "\"15.0.0\""
+					},
+					{
+						"key": "sec-ch-ua-wow64",
+						"value": "?0"
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "document"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "navigate"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-fetch-user",
+						"value": "?1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Cookie",
+						"value": "keen={%22uuid%22:%22e1d9675d-1aff-4884-bbd3-bc2b3d2e5e7c%22%2C%22initialReferrer%22:null}; prodperfect_session={%22session_uuid%22:%222573ccbe-488c-49ac-aa36-e29aa8ba7fd1%22}; XSRF-TOKEN=eyJpdiI6InJ4blFLdUd4b3kwQ3RJNWE0NnJYTFE9PSIsInZhbHVlIjoiY05Tdjd1bzNqS3FpQmlHRWlOd1lyb0tSRnl6RkxHZUhpQTFMNkFmNWluT2FHUDZveUlmQVVmRFdPUUdVZXFOWHdcL0x5NElHNHBIUFJFY2VxbjN1clwvbjN1c3hUZlwvRFZWd3lcL3JTK0J1cDVaWE5hMXlWa3hhMmFmUk1WZHkzRHF4IiwibWFjIjoiMTllNDFkNmY2ODAxMjNjYjExMTI1MzU3ZGY1NDlkZGM3ZWIxOWExYzkxMzhjNTRjYzRjZTJkMDZjN2EyZDE1OSJ9; laravel_session=eyJpdiI6IkhFSnFcL0pqRkwzVTNRM1JrK25oOWtBPT0iLCJ2YWx1ZSI6IlI4cVIwVjR5UVRsTFpqRGZBaVg4Z3RnZHIrVW1SR2RkTlA0bjE2SVprMEV1OFdrUGZmUXFrWU54Sng0MXNzMkdFSUl2RU9mQWpwZFwvQjlmM1JyTyt1N1YyRUZCWEZ1YzR4WnVqK0dlNGE1RW9BY21rOTd2WUdTQUdWZit5N2NpciIsIm1hYyI6IjZhZDQ5OGQ1NTE5OGFlOWY5ZjJlNDQyYjYyMzkyZjU3YmNmYThhNDVlNDcwMzBmZWI0NGM1ZTBhZjUzNTViYjkifQ%3D%3D"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "_token",
+							"value": "wAKGSht2pFK8WPbeXtbkB9Jp8ISOgqlWtT1JlwwI",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Srujana",
+							"type": "text"
+						},
+						{
+							"key": "company",
+							"value": "IBM",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "srujana@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Srujana",
+							"type": "text"
+						},
+						{
+							"key": "password_confirmation",
+							"value": "Srujana",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://blazedemo.com/register",
+					"protocol": "https",
+					"host": [
+						"blazedemo",
+						"com"
+					],
+					"path": [
+						"register"
+					]
+				},
+				"description": "Generated from cURL: curl \"https://blazedemo.com/register\" \r\n  -H \"accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\" \r\n  -H \"accept-language: en-GB,en-US;q=0.9,en;q=0.8\" \r\n  -H \"cache-control: max-age=0\" \r\n  -H \"content-type: application/x-www-form-urlencoded\" \r\n  -b \"keen={%22uuid%22:%22e1d9675d-1aff-4884-bbd3-bc2b3d2e5e7c%22%2C%22initialReferrer%22:null}; prodperfect_session={%22session_uuid%22:%222573ccbe-488c-49ac-aa36-e29aa8ba7fd1%22}; XSRF-TOKEN=eyJpdiI6InJ4blFLdUd4b3kwQ3RJNWE0NnJYTFE9PSIsInZhbHVlIjoiY05Tdjd1bzNqS3FpQmlHRWlOd1lyb0tSRnl6RkxHZUhpQTFMNkFmNWluT2FHUDZveUlmQVVmRFdPUUdVZXFOWHdcL0x5NElHNHBIUFJFY2VxbjN1clwvbjN1c3hUZlwvRFZWd3lcL3JTK0J1cDVaWE5hMXlWa3hhMmFmUk1WZHkzRHF4IiwibWFjIjoiMTllNDFkNmY2ODAxMjNjYjExMTI1MzU3ZGY1NDlkZGM3ZWIxOWExYzkxMzhjNTRjYzRjZTJkMDZjN2EyZDE1OSJ9; laravel_session=eyJpdiI6IkhFSnFcL0pqRkwzVTNRM1JrK25oOWtBPT0iLCJ2YWx1ZSI6IlI4cVIwVjR5UVRsTFpqRGZBaVg4Z3RnZHIrVW1SR2RkTlA0bjE2SVprMEV1OFdrUGZmUXFrWU54Sng0MXNzMkdFSUl2RU9mQWpwZFwvQjlmM1JyTyt1N1YyRUZCWEZ1YzR4WnVqK0dlNGE1RW9BY21rOTd2WUdTQUdWZit5N2NpciIsIm1hYyI6IjZhZDQ5OGQ1NTE5OGFlOWY5ZjJlNDQyYjYyMzkyZjU3YmNmYThhNDVlNDcwMzBmZWI0NGM1ZTBhZjUzNTViYjkifQ%3D%3D\" \r\n  -H \"origin: https://blazedemo.com\" \r\n  -H \"priority: u=0, i\" \r\n  -H \"referer: https://blazedemo.com/register\" \r\n  -H \"sec-ch-ua: \\\"Not;A=Brand\\\";v=\\\"99\\\", \\\"Google Chrome\\\";v=\\\"139\\\", \\\"Chromium\\\";v=\\\"139\\\"\" \r\n  -H \"sec-ch-ua-arch: \\\"x86\\\"\" \r\n  -H \"sec-ch-ua-bitness: \\\"64\\\"\" \r\n  -H \"sec-ch-ua-full-version-list: \\\"Not;A=Brand\\\";v=\\\"99.0.0.0\\\", \\\"Google Chrome\\\";v=\\\"139.0.7258.139\\\", \\\"Chromium\\\";v=\\\"139.0.7258.139\\\"\" \r\n  -H \"sec-ch-ua-mobile: ?0\" \r\n  -H \"sec-ch-ua-model: \\\"\\\"\" \r\n  -H \"sec-ch-ua-platform: \\\"Windows\\\"\" \r\n  -H \"sec-ch-ua-platform-version: \\\"15.0.0\\\"\" \r\n  -H \"sec-ch-ua-wow64: ?0\" \r\n  -H \"sec-fetch-dest: document\" \r\n  -H \"sec-fetch-mode: navigate\" \r\n  -H \"sec-fetch-site: same-origin\" \r\n  -H \"sec-fetch-user: ?1\" \r\n  -H \"upgrade-insecure-requests: 1\" \r\n  -H \"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\" \r\n  --data-raw \"_token=wAKGSht2pFK8WPbeXtbkB9Jp8ISOgqlWtT1JlwwI&name=Srujana&company=IBM&email=srujana%40gmail.com&password=Srujana&password_confirmation=Srujana\""
+			},
+			"response": []
+		}
+	]
+}
